@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AutomobileMaintainanceApplication<automobile_maintainance>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.automobile.automobile_maintainance.AutomobileMaintainanceApplication",
+            "projectName": "automobile_maintainance",
+            "args": ""
+        }
+    ]
+}

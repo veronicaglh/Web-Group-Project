@@ -7,14 +7,14 @@ our project,Automobile maintenance delivery software,is a web-app thats is meant
  3/authentication
  4/order
  
+The two bussiness features:
+1)order
+2)rating
 
 
 
 
-
-
-
- group memebers
+group memebers
  1.Jeal Sabir               UGR/0113/12
  2.Tsion Guesh              UGR/7807/12
  3.Sosna Worku              UGR/3804/12

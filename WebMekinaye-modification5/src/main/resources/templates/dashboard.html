@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link th:href ="@{Fonts/ NatunaPersonalUseOnly-p7wWD.ttf}" rel="stylesheet"/>
+    <link th:href="@{../static/css/AdminDashboardStyles.css}" rel="stylesheet"/>
+
+</head>
+<body>
+    <form class="d-flex" method="POST" th:action="@{/logout}">
+        <input type="submit" value="Logout"/>
+       </form>
+    <ul class = "nav"><a href = "@{Home.html}" >Home |</a> <a th:href="@{Registration.html}"> Registration | </a> <a th:href="@{login}">Login | </a> <a th:href="@{order}">Order</a></ul>
+    <!--<p class = "slogan">Mekinaye </p-->
+    <h1> Admins Dashboard</h1>
+    <p class = "text">Welcome to your admin dashboard. This page is only for users who have special authorization that includes users who are admins</p>
+    <p class = "text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, totam! Nostrum, facere ducimus beatae delectus temporibus eius quam a eum magnam placeat mollitia sequi, modi harum, aliquam ipsa hic molestias.</p>
+
+    <h2>What Priveilegs Do Admin Users have?</h2>
+    <p class = "text" id = "">Admin users have special priveilegs. Admin users can
+        <ul>
+            <li>Can create other user accounts</li>
+            <li>Can delete other user accounts</li>
+            <li>Can update other user accounts</li>
+            <li>Can read other user accounts</li>
+        </ul>
+    </p>
+
+  
+
+    <h2>Please use the following to use your authorization</h2>
+    <div class = "privilages">
+    <button>Create User Account</button>
+    <button>Update User Account</button>
+    <button>Delete User Account</button>
+    <button>Read User Account</button>
+    </div>
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechinaye</title>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet" />
+</head>
+<body>
+    <!-- <div th:replace="fragment::o"></div> -->
+    <div class="container">
+    
+        
+    <h3>Welcome to the Rating page</h3><hr>
+    
+    <p><span  th:text=" 'We hope you enjoyed using our services. Please fill the form below to rate the quality as well as efficiency of the services.'"></p>
+    <p><span th:text=" 'This will help us suggest different service providers for new users.' "></span></p>
+    <hr></div>
+
+    <!-------Checkbox---------->
+   
+    <form th:action="@{/Rating}" method="POST" >
+    <p> Are you a regular user of Mekinaye?:<br>
+        <input type="checkbox" name="service" value="Yes">Yes<br>
+
+        <input type="checkbox" name="service" value="sometimes">I use mekinaye sometimes but not regularly<br>
+        <input type="checkbox" name="service" value="No">No</p><br>
+
+   
+<!---<div >
+    <p><span th:text=" 'How would you rate this website?' "></span></p>
+    <div >
+
+        <input  th:text="${rating.very_good}" type="checkbox" name="very_good"  > </div>
+        <div><input th:text="${rating.Good}" type="checkbox" name="good" ></div>
+       <div><input th:text="${rating.Bad}" type="checkbox"  name="bad"></div> 
+        
+    </div>-->
+    
+    <p>Could you tell us why you chose that option?</p>
+    <textarea name="comments" cols="20"rows="4">Enter your comments here</textarea><br></form>
+
+    <form method="POST" >
+        <button>go back to Home</button>
+    </form>
+    <form method="POST" th:action="@{/service/current}" >
+        <button>order another service</button>
+    </form>
+    <script th:src="@{/js/bootstrap.bundle.min.js}">
+    </script>
+    </div> 
+    
+</body>
+</html>
