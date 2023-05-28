@@ -1,4 +1,4 @@
-###### Web-group-project
-###### The overall goal of this project is to facilitate communication between consumers in need of  car maintenance and the service providers who can help them solve their problem. People who require these services can visit our website using a phone or computer with an active internet connection and request the services they require. Our system receive requests from users and provide alerts to nearby gas stations or garages when an issue arises.
-###### Specific features of the project: encryption, authorization, authentication and order. 
-###### The two bussiness features: order and rating. 
+#### Web-group-project
+#### The overall goal of this project is to facilitate communication between consumers in need of  car maintenance and the service providers who can help them solve their problem. People who require these services can visit our website using a phone or computer with an active internet connection and request the services they require. Our system receive requests from users and provide alerts to nearby gas stations or garages when an issue arises.
+#### Specific features of the project: encryption, authorization, authentication and order. 
+#### The two bussiness features: order and rating. 
